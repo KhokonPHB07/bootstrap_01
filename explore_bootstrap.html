@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explore bootstrap</title>
+    <!-- this is bootstrap css -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- This is bootstrap nav bar -->
+    <nav class="navbar navbar-expand-lg bg-primary-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger border-end border-danger border-5 pe-3" href="#">KHOKON's travel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Travel places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- This is carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/01.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Finley Tea Estate</h5>
+                    <p>Bangladesh most beautiful place.If not yet think about it.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/02.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/03.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- This section for CARD -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/04.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SRIMONGAL</h5>
+              <p class="card-text">My life is always boring. When i get opportunity i try to travel. Nature is all time green. This color is vibrant.If you don't feel the color then you are color blind.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/05.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Grand sultan</h5>
+              <p class="card-text">This is infront of luxury hotel Grand sultan. Huge expensive. Huge decorative. Huge popular. You must love it</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/08.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NoorJahan Tea Estate</h5>
+              <p class="card-text">what a name for tea garden. Prestigious,pride and beauty of nature. If you go there you must like it. The green tree just mind blowing. You can never give up.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- This is FAQ section -->
+    <div class="accordion mt-5" id="accordionExample">
+        <h1 class="bg-primary-subtle text-center">FAQ</h1>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Is tour always expensive ?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>what you think?</strong> Till in road you can't imagine the real true of nature. Only reading blog and watch video is not solution.Explore the beauty of nature. Vibrant color of people, their life, their happiness,excitement and others are just inflowing. <code>.So what is up:?</code>, No more thinking..........just go
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How you manage money ?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Money ! big issue ? </strong> Well without money life is totally impossible. It is not deniable and naturally when we try to find out any service we must pay for that. Because from whom i am getting that service he/she must get paid. Otherwise she/he can't survive. this way our socio-economy is bonding.  <code>worthless money?</code>, decsion is yours...........
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Difficult to choose a place?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Where you like to go?</strong> up to you. what you love? Are you solo traveler? or with family? or with friends? or with co-worker? what you prefer? well every stage of age have different test. You need companion. Select your age and try to find out comapanion. without human you can't do anything. So? <code>without Human?</code>, life is tough....without human........they are pain they are happpy......nothing to do.
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- This is famous quote from khokon -->
+    <div class="card mt-5 mb-2">
+        <div class="card-header">
+          Quote
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>If you love someone,don't panic,keep patience.</p>
+            <footer class="blockquote-footer">FAMOUS<cite title="Source Title">A TRAVELER KHOKON</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    
+    <!-- This is Footer -->
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/23.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">All rights Reserved</h5>
+              <p class="card-text">@Mohmmad Moshiur Rahman Khan (KHOKON).</p>
+              <p class="card-text"><small class="text-muted">copyrighted material beware of that.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    <!-- write above or paste all code from this line -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
